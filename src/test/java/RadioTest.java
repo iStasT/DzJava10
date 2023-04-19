@@ -312,6 +312,7 @@ public class RadioTest {
         int actual = radio.getCurrentVolume();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void TestIncreaseVolume4() {
         Radio radio = new Radio();
@@ -324,6 +325,7 @@ public class RadioTest {
         int actual = radio.getCurrentVolume();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void TestIncreaseVolume5() {
         Radio radio = new Radio();
@@ -336,6 +338,7 @@ public class RadioTest {
         int actual = radio.getCurrentVolume();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void TestDecreaseVolume1() {
         Radio radio = new Radio();
@@ -348,6 +351,7 @@ public class RadioTest {
         int actual = radio.getCurrentVolume();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void TestDecreaseVolume2() {
         Radio radio = new Radio();
@@ -360,6 +364,7 @@ public class RadioTest {
         int actual = radio.getCurrentVolume();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void TestDecreaseVolume3() {
         Radio radio = new Radio();
@@ -372,6 +377,7 @@ public class RadioTest {
         int actual = radio.getCurrentVolume();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void TestDecreaseVolume5() {
         Radio radio = new Radio();
@@ -384,6 +390,7 @@ public class RadioTest {
         int actual = radio.getCurrentVolume();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void TestDecreaseVolume6() {
         Radio radio = new Radio();
@@ -396,6 +403,7 @@ public class RadioTest {
         int actual = radio.getCurrentVolume();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void TestDecreaseVolume7() {
         Radio radio = new Radio();
